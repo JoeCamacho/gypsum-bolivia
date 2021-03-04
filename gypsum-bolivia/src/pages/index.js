@@ -1,5 +1,17 @@
-import React from "react"
+import React from "react";
+import Layout from '../components/Layout';
+import { header } from '../styles/home.module.css';
 
 export default function Home() {
-  return <div>HERO SECTION COMES HERE</div>
+  return (
+    <Layout>
+      <section className={header}>
+        <div>
+          <h2>Design</h2>
+          <h3>Develop & Deploy</h3>
+          <p>UX designer & web developer</p>
+        </div>
+      </section>
+    </Layout>
+  )
 }
