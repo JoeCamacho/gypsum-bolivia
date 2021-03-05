@@ -11,8 +11,7 @@ export default function Layout({ children }) {
     { children }
    </div>
    <footer>
-    <p>Copyright 2021 Gypsum Bolivia</p>
-    <p>Design by Helios Web Development</p> 
+    <p>Copyright 2021 Gypsum Bolivia</p> 
    </footer>   
   </div>
  )
