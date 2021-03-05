@@ -4,18 +4,19 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   text-decoration: none;
   font-family: "Roboto", monospace;
   color: white;
 }
 html, body {
   min-height: 100%;
+  
 }
 body {
   /* background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%); */
-  background: rgb(254,255,3);
-  background: linear-gradient(90deg, rgba(254,255,3,1) 0%, rgba(252,224,0,1) 50%, rgba(255,226,0,1) 100%);
+  background: rgb(255,207,3);
+  background: linear-gradient(90deg, rgba(255,207,3,1) 0%, rgba(252,201,0,1) 50%, rgba(255,189,0,1) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -25,13 +26,14 @@ p {
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0 20px auto;
+  
 }
 nav {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 40px auto;
+  margin: auto;
 }
 nav .links {
   display: inline-block;
