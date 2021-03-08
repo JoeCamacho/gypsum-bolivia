@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function EquipmentContainer() {
  return (
-  <div className="container" style={{ maxWidth: '30%' }} >
+  <div className="container" >
           <div className="imagecontainer">
             <img src="/circle.png" alt=""/>
           </div>
@@ -10,7 +10,7 @@ export default function EquipmentContainer() {
             <h2>Productos</h2>
           </div>
           <div className="textcontainer">
-            <p>Gypsum ofrece una amplia gama de productos de yeso. </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, totam vero! Recusandae corporis officia modi perferendis, velit possimus dicta iusto, odio quaerat autem eum dolorem molestiae, facilis sequi assumenda necessitatibus! </p>
           </div>
         </div>
  )
